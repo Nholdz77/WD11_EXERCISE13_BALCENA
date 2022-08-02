@@ -1,0 +1,18 @@
+$primary: #092328;
+$light: rgb(158, 103, 0);
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$balcena-theme-color:(
+favorite1: red,
+favorite2: yellow
+);
+$theme-colors: map-merge($balcena-theme-color , $theme-colors);
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
